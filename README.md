@@ -12,7 +12,7 @@ This project was created as a final project for **Introduction to Programming Wi
 - Borrow books with a **borrowing limit** (max 3 at a time)
 - Check in / return books (clears the checked-out status)
 
-## How it works (high level)
+## How it works 
 
 - The library uses a fixed-size `string?[]` array to store book titles.
 - Borrowed books are tracked separately to enforce the borrow limit.
@@ -53,3 +53,4 @@ When prompted, type one of the commands below:
 ## License
 
 MIT License. See `LICENSE`.
+
